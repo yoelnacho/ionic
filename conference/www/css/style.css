@@ -1,0 +1,46 @@
+/* Empty. Add your own CSS if you like */
+.slider,
+.scroll,
+.box { height: 100vh;}
+
+map {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+
+.yellow {
+	background: url("https://s-media-cache-ak0.pinimg.com/736x/c1/70/b3/c170b30d94c451b29edb085c9a27416d.jpg") no-repeat center;
+}
+
+.blue {
+	background: url("https://s-media-cache-ak0.pinimg.com/736x/c2/56/27/c25627e5539729b64a6ab3f25a55e5a8.jpg") no-repeat center;
+}
+
+.pink {
+	background: url("https://s-media-cache-ak0.pinimg.com/736x/b1/bb/79/b1bb79df94d2c48390c44f93960bf9c6.jpg") no-repeat center;
+}
+
+.box {
+	background-size: cover;
+}
+.blue h1 {	
+	text-align: center;
+	color: white;
+}
+
+.blue h1 span {
+	display: block;
+	font-size: .8em;
+}
+
+.blue h1 i {
+	display: block;
+	font-size: 3em;
+	line-height: 1;
+}
+
+.slider h1 {
+	height: 100vh;
+}
