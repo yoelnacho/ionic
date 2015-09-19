@@ -31,6 +31,11 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
     templateUrl: 'templates/menu.html',
 	controller: 'AppCtrl'
   })
+  
+  .state('splash', {
+    url: '/splash',
+    templateUrl: 'templates/splash.html'
+  })
 
   .state('app.search', {
     url: '/search',
@@ -49,15 +54,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
       }
     }
   })
-  
-  .state('app.splash', {
-      url: '/splash',
-      views: {
-        'menuContent': {
-          templateUrl: 'templates/splash.html'
-        }
-      }
-    })
 
   .state('app.slider', {
       url: '/slider',
@@ -97,5 +93,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.directives']
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/splash');
+  $urlRouterProvider.otherwise('/splash');
 });

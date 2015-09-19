@@ -9,6 +9,10 @@ map {
   height: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
 
 .yellow {
 	background: url("https://s-media-cache-ak0.pinimg.com/736x/c1/70/b3/c170b30d94c451b29edb085c9a27416d.jpg") no-repeat center;
@@ -39,6 +43,7 @@ map {
 	display: block;
 	font-size: 3em;
 	line-height: 1;
+	padding-top: 5%;
 }
 
 .slider h1 {
